@@ -74,6 +74,6 @@ for number in range(1, 1001):
             answer += len(d[unit_place_value])
             number_name_words.append(d[unit_place_value])
 
-    print(' '.join(number_name_words))
+    print(number, ' -> ', ' '.join(number_name_words))
 
 print(answer)
